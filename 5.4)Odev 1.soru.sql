@@ -1,0 +1,1 @@
+select customerName, customerNumber, creditLimit from customers where creditLimit >100000 order by creditLimit desc;
